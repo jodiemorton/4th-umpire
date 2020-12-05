@@ -24,6 +24,8 @@ conda install django
 pip install django-bootstrap-form
 
 ```
+### CHECKOUT THIS
+Click [Here](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) for detailed info on setting the env.
 Clone the repository on your local environment <br>
 
 ```bash
