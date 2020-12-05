@@ -42,6 +42,12 @@ Install the required dependencies <br>
 ```bash
 pip install -r requirements.txt 
 ```
+# More Changes
+1. Inside the 4thUmpire\web\fourth_umpire\templates\fourth_umpire folder
+2. Try to change the HTML files with {% load static %} instead of {% load staticfiles %}.
+3. You are good to go.
+
+
 
 Run the localhost-server <br>
 ```bash 
