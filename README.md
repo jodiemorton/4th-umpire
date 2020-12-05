@@ -15,9 +15,14 @@ Demo video for Code Fun Do is available [here](https://drive.google.com/file/d/1
 Create and activate a virtualenv:
 
 ```bash
-virtualenv cfd_apriori
-cd cfd_apriori
-source bin/activate
+conda create --name myenv
+Replace myenv with the environment name.
+proceed ([y]/n)?
+conda activate myenv
+conda install scikit-learn=0.19.2
+conda install django
+pip install django-bootstrap-form
+
 ```
 Clone the repository on your local environment <br>
 
@@ -32,12 +37,12 @@ cd 4thUmpire/web
 
 Install the required dependencies <br>
 ```bash
-pip3 install -r requirements.txt 
+pip install -r requirements.txt 
 ```
 
 Run the localhost-server <br>
 ```bash 
-python3 manage.py runserver
+python manage.py runserver
 ```
 
 The web-app will be available at `127.0.0.1:8000` on your browser. 
