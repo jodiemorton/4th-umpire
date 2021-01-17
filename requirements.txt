@@ -1,1 +1,5 @@
-
+django
+django-bootstrap-form
+numpy
+pandas
+scikit-learn
