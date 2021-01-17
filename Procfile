@@ -1,1 +1,1 @@
-web: gunicorn web.cfd.wsgi
+web: gunicorn web.wsgi
