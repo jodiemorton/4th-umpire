@@ -1,1 +1,1 @@
-web: gunicorn --chdir web.cfd.wsgi --log-file -
+web: gunicorn --chdir web/cfd.wsgi --log-file -
