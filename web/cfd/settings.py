@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '-5a627tj!_ywa4el%q5sw9_su+0u=*^lq29w^s!r670gl_*%^g'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com','https://forththump.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1','forththump.herokuapp.com']
 
 
 # Application definition
