@@ -1,1 +1,1 @@
-web: gunicorn web.cfd.wsgi --log-file -
+web: gunicorn --pythonpath web cfd.wsgi --log-file -
