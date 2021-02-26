@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'fourth_umpire',
+    'web.fourth_umpire',
 ]
 
 MIDDLEWARE = [
