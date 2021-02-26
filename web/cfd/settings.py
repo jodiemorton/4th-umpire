@@ -52,7 +52,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'cfd.urls'
+ROOT_URLCONF = 'web.cfd.urls'
 
 TEMPLATES = [
     {
@@ -70,7 +70,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'cfd.wsgi.application'
+WSGI_APPLICATION = 'web.cfd.wsgi.application'
 
 
 # Database
