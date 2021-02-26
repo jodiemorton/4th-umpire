@@ -70,7 +70,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'cfd.wsgi.application'
+WSGI_APPLICATION = 'web.cfd.wsgi.application'
 
 
 # Database
