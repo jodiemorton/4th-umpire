@@ -52,7 +52,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'web.cfd.urls'
+ROOT_URLCONF = 'cfd.urls'
 
 TEMPLATES = [
     {
