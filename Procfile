@@ -1,1 +1,1 @@
-web: gunicorn --pythonpath 4th-umpire web cfd.wsgi --log-file -
+web: gunicorn --pythonpath web cfd.wsgi --log-file -
